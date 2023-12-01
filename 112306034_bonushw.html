@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonus Homework</title>
+    <style>
+        .container {
+            width: 50%; /* 适当的宽度，你可以根据需要调整 */
+            text-align: right; /* 将容器内文本对齐方式设置为左对齐 */
+            margin: 0 auto; /* 通过 margin 实现水平居中 */
+            justify-content: space-between;
+        }
+        .not-resizable {
+            resize: none;
+        }
+        body{
+            display: flex;
+            flex-direction:column;
+            margin-left: auto;
+            margin-right: auto ;
+        }
+        h1{
+            margin-top: 5%;
+        }
+        input{
+            margin: 2%;
+            direction: rtl; /* 设置文本方向为从右到左 */
+        }
+        h2 {
+            display: flex;
+            align-items: flex-end; /* 垂直顶部对齐 */
+        }
+        img {
+        float: right;
+        margin-right: 30%; /* 调整文本和图像之间的间距 */
+        width: 65%; /* 调整图像宽度 */
+        height: auto; /* 保持纵横比 */
+        }
+        textarea {
+        margin-bottom: 0; /* 移除 textarea 底部的 margin，使其与 input 上方对齐 */
+        align-self: flex-start; /* textarea 左侧对齐 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1 style="text-align: center" >Bonus HW</h1>
+<h2>
+Input 1 
+    <input type="text" style="width: 72%;" class="input">
+</h2>
+    <h2>Input 2
+    <input type="text" style="width: 23%;" class="input">Input 3<input type="text" style="width: 23%;" class="input">
+</h2>
+    <h2>Input 4 
+    <input type="text" style="width: 50%;" class="input">
+</h2>
+</div>
+<di style="margin-left: 23%;">
+    <h2 style="text-align: right;">Textarea
+    <textarea style="width: 47%; margin-left: 1%;"  class="not-resizable" class="input container"></textarea>
+</h2>
+</div>
+<div>
+    <h2 >Picture1
+    <img src="https://www.design-hu.com/wp-content/uploads/2022/12/domain-1-768x418-1.png" alt="no point">
+</h2>
+</div>
+</div>
+</body>
+</html>
